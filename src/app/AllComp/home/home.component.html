@@ -1,0 +1,15 @@
+<div>
+ <h1 id="ok">Menu</h1>
+    <div id="card-container">
+        <div class="card" *ngFor="let todo of data">
+          <div class="img-container">
+            <img [src]="todo.Img" alt="Todo Image" />
+          </div>
+          <p>{{ todo.Name }}</p>
+          <p>{{ todo.Price }}</p>
+          <p>{{ todo.Quantity }}</p>
+          <button class="card-button">Order Now</button>
+        </div>
+      </div>
+      
+</div>

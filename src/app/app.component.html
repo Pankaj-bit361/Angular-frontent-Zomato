@@ -1,0 +1,21 @@
+<div>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="#" class="logo" routerLink="/">Foodiy</a>
+    </div>
+    <div class="navbar-middle">
+      <form class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div class="navbar-right">
+      <a routerLink="/login">{{val?"Logout":"Login"}}</a>
+      <a routerLink="/singup">Order</a>
+    </div>
+  </nav>
+  
+      <router-outlet></router-outlet>
+
+
+</div>
